@@ -7,3 +7,7 @@ JavaScript/HTML/CSS:
 ```markup
 <link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@1.0.0/src/all.min.css" />
 ```
+Or, use the latest Development Version
+```html
+<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@1.0.0/src/development.min.css" />
+```
