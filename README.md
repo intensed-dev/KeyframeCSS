@@ -32,6 +32,7 @@ Example usage:
 ## Installation
 
 KeyframeCSS is distributed via CDN to ensure fast integration without build steps or package managers. You can include the library directly in your HTML and start using animations immediately.
+Alternatively, you could also download KeyframeCSS.
 
 ### Stable Release (Recommended)
 
