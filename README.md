@@ -91,18 +91,14 @@ KeyframeCSS is built entirely on native CSS keyframes. The library maps semantic
 
 ## MotionJS Integration
 
-For dynamic behavior, KeyframeCSS can be combined with MotionJS. This allows animations to be triggered programmatically while still relying on the underlying CSS-based animation system.
+> Please note: MotionJS is still in early development.
+
+For dynamic behavior, KeyframeCSS can be combined with MotionJS. This allows developers to create custom animations in a custom Syntax called **MotionCode**, which gets then translated to real animations. For this, the MotionJS CDN is needed.
 
 ```html
-<button onclick="trigger()">Trigger animation</button>
+<div data-anim="KF|T1400|E:sine|Y:0=0,0.5=-30,1=0|SX:0=1,0.5=1.3,1=1|SY:0=1,0.5=0.7,1=1|R:0=0,1=8|O:0=1,0.5=0.85,1=1"></div>
 
-<div id="box" class="anim kf-bounce"></div>
-
-<script>
-function trigger() {
-  document.getElementById("box").classList.add("speed-1"); // 1 second
-}
-</script>
+<script src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/motion/motion.min.js"></script>
 ```
 
 ---
@@ -112,9 +108,7 @@ function trigger() {
 ```text
 keyframecss-source/
  ├── src/
- ├── animations/
- ├── utilities/
- ├── docs/
+ ├── motion/
  ├── README.md
 ```
 
