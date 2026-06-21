@@ -1,0 +1,24 @@
+name: Security Issue
+description: Report a potential security vulnerability
+title: "[SECURITY]: "
+labels: ["security"]
+
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Description
+      description: Describe the security concern privately and responsibly
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential Impact
+      description: What could be affected?
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps (if safe to share)
