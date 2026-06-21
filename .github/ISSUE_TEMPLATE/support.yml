@@ -1,0 +1,19 @@
+name: Support / Question
+description: Ask for help using KeyframeCSS
+title: "[SUPPORT]: "
+labels: ["question"]
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe your issue or question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide relevant code or setup
