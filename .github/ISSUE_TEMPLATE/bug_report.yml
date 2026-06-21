@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report a problem with KeyframeCSS
+title: "[BUG]: "
+labels: ["bug"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue clearly
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps to reproduce the bug
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens?
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+
+  - type: input
+    id: version
+    attributes:
+      label: Library Version
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Context
