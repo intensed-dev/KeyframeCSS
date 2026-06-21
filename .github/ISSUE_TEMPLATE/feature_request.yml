@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest a new animation or feature
+title: "[FEATURE]: "
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: Describe the feature you want
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case
+      description: Why is this feature useful?
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example Usage
+      placeholder: |
+        <div class="anim kf-bounce"></div>
