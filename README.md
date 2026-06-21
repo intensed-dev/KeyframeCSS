@@ -101,7 +101,6 @@ For dynamic behavior, KeyframeCSS can be combined with MotionJS. This allows dev
 <script src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/motion/development.min.js"></script>
 ```
 
----
 
 ## Repository Structure
 
