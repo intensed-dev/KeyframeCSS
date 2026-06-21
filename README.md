@@ -98,7 +98,7 @@ For dynamic behavior, KeyframeCSS can be combined with MotionJS. This allows dev
 ```html
 <div data-anim="KF|T1400|E:sine|Y:0=0,0.5=-30,1=0|SX:0=1,0.5=1.3,1=1|SY:0=1,0.5=0.7,1=1|R:0=0,1=8|O:0=1,0.5=0.85,1=1"></div>
 
-<script src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/motion/motion.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/motion/development.min.js"></script>
 ```
 
 ---
