@@ -1,1 +1,33 @@
+title: KeyframeCSS
+description: Lightweight CSS animation library
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+url: "https://intensed-dev.github.io"
+baseurl: "/KeyframeCSS"
+
+color_scheme: dark
+
+search_enabled: true
+search:
+  heading_level: 2
+
+aux_links:
+  GitHub:
+    - "https://github.com/intensed-dev/KeyframeCSS"
+
+    gh_edit_link: true
+    gh_edit_link_text: Edit this page
+    gh_edit_repository: https://github.com/intensed-dev/KeyframeCSS
+    gh_edit_branch: main
+
+footer_content: "© 2026 KeyframeCSS"
+
+nav_sort: case_insensitive
+
+back_to_top: true
+back_to_top_text: Back to top
 
