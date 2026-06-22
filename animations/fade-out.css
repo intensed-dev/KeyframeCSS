@@ -1,1 +1,12 @@
+.kf-fade-out { 
+  animation-name: KfFadeOut; 
+}
 
+@keyframes KfFadeOut {
+  from { 
+    opacity: 1; 
+  }
+  to { 
+    opacity: 0; 
+  }
+}
