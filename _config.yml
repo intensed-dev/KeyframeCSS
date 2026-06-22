@@ -1,5 +1,8 @@
 title: KeyframeCSS Docs
-markdown: kramdown
+remote_theme: just-the-docs/just-the-docs
 
-github:
-  repository_url: "https://github.com/intensed-dev/KeyframeCSS"
+color_scheme: light
+
+aux_links:
+  "Edit this page":
+    - "https://github.com/intensed-dev/KeyframeCSS"
