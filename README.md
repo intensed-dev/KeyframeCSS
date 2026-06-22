@@ -11,22 +11,22 @@ Example usage:
 
 ## Release & Project Status
 
-![Version](https://img.shields.io/github/v/release/intensed-dev/keyframecss-source?style=for-the-badge)
-![License](https://img.shields.io/github/license/intensed-dev/keyframecss-source?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/intensed-dev/keyframecss-source?style=for-the-badge)
+![Version](https://img.shields.io/github/v/release/intensed-dev/keyframecss?style=for-the-badge)
+![License](https://img.shields.io/github/license/intensed-dev/keyframecss?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/intensed-dev/keyframecss?style=for-the-badge)
 
 
 ## Repository Activity
 
-![Issues](https://img.shields.io/github/issues/intensed-dev/keyframecss-source?style=for-the-badge)
-![Pull Requests](https://img.shields.io/github/issues-pr/intensed-dev/keyframecss-source?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/intensed-dev/keyframecss?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/intensed-dev/keyframecss?style=for-the-badge)
 
 
 ## Community Metrics
 
-![Stars](https://img.shields.io/github/stars/intensed-dev/keyframecss-source?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/intensed-dev/keyframecss-source?style=for-the-badge)
-![Watchers](https://img.shields.io/github/watchers/intensed-dev/keyframecss-source?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/intensed-dev/keyframecss?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/intensed-dev/keyframecss?style=for-the-badge)
+![Watchers](https://img.shields.io/github/watchers/intensed-dev/keyframecss?style=for-the-badge)
 
 
 ## Installation
@@ -37,14 +37,14 @@ Alternatively, you could also download KeyframeCSS.
 ### Stable Release (Recommended)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/src/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/all.min.css">
 ```
 
 
 ### Versioned Release
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@0.5.1/src/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@0.5.1/src/all.min.css">
 ```
 
 
@@ -55,7 +55,7 @@ The development build was previously used for experimental features and early te
 All users are strongly encouraged to migrate away from development builds before **June 21st, 2026**, as support and updates for these files have already been discontinued.
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@0.5.1/src/development.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@0.5.1/src/development.min.css">
 ```
 
 
@@ -99,7 +99,7 @@ For dynamic behavior, KeyframeCSS can be combined with MotionJS. This allows dev
 ```html
 <div data-anim="KF|T1400|E:sine|Y:0=0,0.5=-30,1=0|SX:0=1,0.5=1.3,1=1|SY:0=1,0.5=0.7,1=1|R:0=0,1=8|O:0=1,0.5=0.85,1=1"></div>
 
-<script src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss-source@latest/motion/development.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/motion/development.min.js"></script>
 ```
 
 
