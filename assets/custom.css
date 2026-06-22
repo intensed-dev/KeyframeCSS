@@ -1,0 +1,17 @@
+body {
+  font-family: ui-sans-serif, system-ui;
+}
+
+/* Cards */
+.demo {
+  padding: 20px;
+  border-radius: 12px;
+  background: #111;
+  color: white;
+  margin-top: 10px;
+}
+
+/* Buttons look */
+a {
+  color: #60a5fa;
+}
