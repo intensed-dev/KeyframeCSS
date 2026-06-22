@@ -2,16 +2,23 @@ body {
   font-family: ui-sans-serif, system-ui;
 }
 
-/* Cards */
+/* nicer docs look */
+.main-content {
+  max-width: 900px;
+}
+
+/* demo boxes */
 .demo {
   padding: 20px;
   border-radius: 12px;
   background: #111;
   color: white;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
-/* Buttons look */
-a {
-  color: #60a5fa;
+/* code blocks nicer */
+code {
+  background: #1e1e1e;
+  padding: 2px 6px;
+  border-radius: 6px;
 }
