@@ -1,0 +1,21 @@
+.anim-once {
+  animation-iteration-count: 1; 
+}
+.anim-loop { 
+  animation-iteration-count: infinite; 
+}
+.anim-repeat { 
+  animation-iteration-count: var(--anim-repeat, 1); 
+}
+.anim-repeat-2 { 
+  animation-iteration-count: 2; 
+}
+.anim-repeat-3 { 
+  animation-iteration-count: 3; 
+}
+.anim-repeat-4 { 
+  animation-iteration-count: 4; 
+}
+.anim-repeat-5 { 
+  animation-iteration-count: 5; 
+}
