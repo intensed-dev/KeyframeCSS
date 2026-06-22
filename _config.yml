@@ -1,8 +1,9 @@
-title: KeyframeCSS Docs
+title: KeyframeCSS
+description: Lightweight CSS animation CDN
 remote_theme: just-the-docs/just-the-docs
 
-color_scheme: light
+color_scheme: dark
 
 aux_links:
-  "Edit this page":
+  GitHub:
     - "https://github.com/intensed-dev/KeyframeCSS"
