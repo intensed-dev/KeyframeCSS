@@ -140,3 +140,5 @@ KeyframeCSS is designed for modern browsers and is tested on the latest stable v
 ## License
 
 This project is distributed under the MIT License unless otherwise specified.
+
+</div>
