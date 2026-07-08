@@ -226,12 +226,88 @@
   100% { transform: rotate(45deg); }
 }
 
-/* v27.1 */
-.kf-liquid-pop { animation-name: KfLiquidPop; }
 
-@keyframes KfLiquidPop {
+/* v27.1 - KeyframeCSS Bavarian Sea */
+/* The newest update named after a german Lake with beautiful landscape, just like Lake Tahoe in California */
+
+.kf-small-pop { animation-name: KfSmallPop; }
+@keyframes KfSmallPop {
   0% { transform: scale(.88) }
-  55% { transform: scale(1.04); }
-  75% { transform: scale(.99); }
-  100% { transform: scale(1); }
+  55% { transform: scale(1.04) }
+  75% { transform: scale(.99) }
+  100% { transform: scale(1) }
+}
+
+.kf-float-up { animation-name: KfFloatUp; }
+@keyframes KfFloatUp {
+  0% { opacity:0; transform:translateY(18px) scale(.98) }
+  70% { opacity:1; transform:translateY(-2px) scale(1.005) }
+  100% { opacity:1; transform:translateY(0) scale(1) }
+}
+
+.kf-float-down { animation-name: KfFloatDown; }
+@keyframes KfFloatDown {
+  100% { opacity:0; transform:translateY(18px) scale(.98) }
+  30% { opacity:1; transform:translateY(-2px) scale(1.005) }
+  0% { opacity:1; transform:translateY(0) scale(1) }
+}
+
+.kf-gel { animation-name: KfGel; }
+@keyframes KfGel {
+  0% { transform:scale(1) }
+  30% { transform:scale(1.05,.95) }
+  55% { transform:scale(.98,1.02) }
+  100% { transform:scale(1) }
+}
+
+.kf-soft-press { animation-name: KfSoftPress; }
+@keyframes KfSoftPress {
+  0% { transform:scale(1) }
+  40% { transform:scale(.94) }
+  70% { transform:scale(1.01) }
+  100% { transform:scale(1) }
+}
+
+.kf-sway { animation-name: KfSway; }
+@keyframes KfSway {
+  0% { transform:rotate(0) }
+  25% { transform:rotate(2deg) }
+  50% { transform:rotate(-1.6deg) }
+  75% { transform:rotate(.7deg) }
+  100% { transform:rotate(0) }
+}
+
+.kf-drift { animation:KfDrift 6s ease-in-out infinite; }
+@keyframes KfDrift {
+  0% { transform:translate(0,0) }
+  25% { transform:translate(4px,-6px) }
+  50% { transform:translate(9px,-2px) }
+  75% { transform:translate(4px,5px) }
+  100% { transform:translate(0,0) }
+}
+
+.kf-hover { animation:KfHover 3s ease-in-out infinite; }
+@keyframes KfHover {
+  0%,100% { transform:translateY(0) }
+  50% { transform:translateY(-8px) }
+}
+
+.kf-focus { animation-name: KfFocus; }
+@keyframes KfFocus {
+  0% { transform:scale(.94); filter:blur(8px); opacity:.2 }
+  100% { transform:scale(1); filter:blur(0); opacity:1 }
+}
+
+.kf-stretch { animation-name: KfStretch; }
+@keyframes KfStretch {
+  0% { transform:scaleX(1) }
+  35% { transform:scaleX(1.08) }
+  65% { transform:scaleX(.97) }
+  100% { transform:scaleX(1) }
+}
+
+.kf-orbit { animation:KfOrbit 5s linear infinite; }
+@keyframes KfOrbit {
+  from { transform:rotate(0) }
+  to { transform:rotate(360deg) }
 }
