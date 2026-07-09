@@ -1,5 +1,3 @@
-<div style="text-align: center;">
-
 # ![Logo](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/logo.svg) KeyframeCSS
 
 ![Built For Lisce](https://cdn.jsdelivr.net/gh/intensed-dev/lisce@latest/branding/badges/built_for/cozy.svg)
@@ -147,5 +145,3 @@ KeyframeCSS is designed for modern browsers and is tested on the latest stable v
 ## License
 
 This project is distributed under the MIT License unless otherwise specified.
-
-</div>
