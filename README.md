@@ -100,7 +100,8 @@ KeyframeCSS is built entirely on native CSS keyframes. The library maps semantic
 
 ## MotionJS Integration
 
-> Please note: MotionJS is still in early development.
+> [!NOTE]
+> In KeyframeCSS 27.2 or later, MotionJS will be discontinued and removed from the repository. Please migrate until **July 10th 2026**.
 
 For dynamic behavior, KeyframeCSS can be combined with MotionJS. This allows developers to create custom animations in a custom Syntax called **MotionCode**, which gets then translated to real animations. For this, the MotionJS CDN is needed.
 
