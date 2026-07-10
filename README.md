@@ -1,4 +1,4 @@
-# ![Logo](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/LiquidGlass-Default.png) KeyframeCSS
+# ![Logo](/branding/LiquidGlass-Default.png) KeyframeCSS
 
 ![Built For Lisce](https://cdn.jsdelivr.net/gh/intensed-dev/lisce@latest/branding/badges/built_for/cozy.svg)
 ![Built For](https://cdn.jsdelivr.net/gh/intensed-dev/keyframecss@latest/branding/badges/built_for/cozy.svg)
